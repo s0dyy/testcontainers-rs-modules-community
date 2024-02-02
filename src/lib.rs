@@ -48,6 +48,9 @@ pub mod parity_parity;
 #[cfg(feature = "postgres")]
 #[cfg_attr(docsrs, doc(cfg(feature = "postgres")))]
 pub mod postgres;
+#[cfg(feature = "pulsar")]
+#[cfg_attr(docsrs, doc(cfg(feature = "pulsar")))]
+pub mod pulsar;
 #[cfg(feature = "rabbitmq")]
 #[cfg_attr(docsrs, doc(cfg(feature = "rabbitmq")))]
 pub mod rabbitmq;
